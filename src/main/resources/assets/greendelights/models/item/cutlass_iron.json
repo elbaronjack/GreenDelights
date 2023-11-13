@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "greendelights:item/cutlass_iron"
+  },
+  "firstperson_righthand": {
+    "rotation": [ 0, -90, 50 ]
+  },
+  "firstperson_lefthand": {
+    "rotation": [ 0, 90, 50 ]
+  }
+}
