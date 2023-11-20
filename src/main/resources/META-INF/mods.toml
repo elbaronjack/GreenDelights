@@ -27,17 +27,17 @@ displayName="Green Delights" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="" #optional
+logoFile="logo.png" #optional
 # A text field displayed in the mod UI
 credits="Thx to vectorwing and lumpazl, the source of my inspiration" #optional
 # A text field displayed in the mod UI
 authors="ElBaronJack" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a mod about green farming and green food: Cactus, bamboo and slime!.
+This is a mod about green farming and green food: Cactus, bamboo and slime!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.betterfarmerscombat]] #optional
+[[dependencies.greendelights]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -49,10 +49,16 @@ This is a mod about green farming and green food: Cactus, bamboo and slime!.
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.betterfarmerscombat]]
+[[dependencies.greendelights]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.greendelights]]
+modId="farmersdelight"
+mandatory=true
+versionRange="[1.1.2,)"
+ordering="NONE"
+side="BOTH"

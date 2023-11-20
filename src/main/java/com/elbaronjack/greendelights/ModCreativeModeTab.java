@@ -1,6 +1,6 @@
 package com.elbaronjack.greendelights;
 
-import com.elbaronjack.greendelights.item.ModItems;
+import com.elbaronjack.greendelights.common.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.Contract;
@@ -15,7 +15,7 @@ public class ModCreativeModeTab {
             @Contract(" -> new")
             @Override
             public @NotNull ItemStack makeIcon() {
-                return new ItemStack(ModItems.CUTLASS_IRON.get());
+                return new ItemStack(ModItems.SLIME_MOUSSE.get());
             }
         };
     }

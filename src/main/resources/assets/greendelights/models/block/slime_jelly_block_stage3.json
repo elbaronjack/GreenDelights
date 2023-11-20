@@ -1,0 +1,39 @@
+{
+	"credit": "Made by Baron Jack in Blockbench",
+	"textures": {
+		"0": "greendelights:block/slime_jelly_inside",
+		"1": "greendelights:block/tray_bottom",
+		"2": "greendelights:block/tray_slime_leftover",
+		"3": "greendelights:block/tray_top",
+		"particle": "greendelights:block/slime_jelly_inside"
+	},
+	"elements": [
+		{
+			"name": "tray",
+			"from": [1, 0, 1],
+			"to": [15, 1, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [15, 1, 1, 2], "texture": "#3"},
+				"east": {"uv": [14, 15, 15, 1], "rotation": 270, "texture": "#3"},
+				"south": {"uv": [1, 14, 15, 15], "texture": "#3"},
+				"west": {"uv": [1, 1, 2, 15], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#1"}
+			}
+		},
+		{
+			"name": "slime",
+			"from": [2, 1, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 8, 16, 12], "texture": "#0"},
+				"south": {"uv": [0, 4, 16, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

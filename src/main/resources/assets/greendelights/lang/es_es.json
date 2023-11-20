@@ -1,4 +1,28 @@
 {
-  "item.greendelights.cutlass_iron": "Chafarote de hierro",
+  "item.greendelights.cactus_crate": "Caja de Cactus",
+  "block.greendelights.cactus_crate": "Caja de Cactus",
+
+  "item.greendelights.cactus_peeled": "Cactus Pelado",
+  "item.greendelights.cactus_dried": "Cactus Seco",
+  "item.greendelights.cactus_sandwich": "Bocarena",
+  "item.greendelights.cactus_stick": "Thanghulu de Cactus",
+  "item.greendelights.cactus_juice": "Zumo de Cactus",
+  "item.greendelights.cactus_cola": "CactusCola",
+  "item.greendelights.cactus_rum": "Ron de Cactus",
+
+  "item.greendelights.bamboo_rice": "Arroz con Bambú y Semillas",
+  "item.greendelights.bamboo_pasta": "Pasta con Bambú y Pescado",
+  "item.greendelights.bamboo_beef": "Ternera con Bambú y Setas",
+
+  "item.greendelights.slime_bread": "Pan de Limo",
+  "item.greendelights.slime_popsicle": "Polo de Limo",
+  "item.greendelights.slime_mousse": "Mousse de Limo",
+  "item.greendelights.slime_jelly_block": "Gelatina de Limo",
+  "block.greendelights.slime_jelly_block": "Gelatina de Limo",
+  "item.greendelights.slime_jelly": "Porción de Gelatina de Limo",
+
+  "item.greendelights.creeper_cookie": "Creeper&Cream",
+  "item.greendelights.sea_salad": "Ensalada del mar",
+
   "itemGroup.greendelightstab": "Green Delights"
 }
