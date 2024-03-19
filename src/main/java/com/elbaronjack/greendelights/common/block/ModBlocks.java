@@ -19,12 +19,12 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, GreenDelights.MOD_ID);
 
     //Crates
-    public static final RegistryObject<Block> CACTUS_CRATE = registerBlock("cactus_crate",
+    public static final RegistryObject<Block> CACTUS_CRATE = registerBlock("cactus_crate_block",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     //Feasts
     public static final RegistryObject<Block> SLIME_JELLY_BLOCK = registerBlock("slime_jelly_block",
-            () -> new FeastBlock(Block.Properties.copy(Blocks.SLIME_BLOCK), ModItems.SLIME_JELLY, true));
+            () -> new FeastBlock(Block.Properties.copy(Blocks.SLIME_BLOCK), ModItems.SLIME_JELLY_SLICE, true));
 
     //Constructors
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

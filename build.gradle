@@ -14,7 +14,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0-1.20.1'
+version = '1.0.1-1.20.1'
 group = 'com.baronjack.greendelights'
 archivesBaseName = 'greendelights'
 
@@ -100,16 +100,10 @@ dependencies {
 
     //Farmer's Delight + Addons
     implementation fg.deobf('curse.maven:FarmersDelight-398521:4679319')
-
-    //runtimeOnly fg.deobf('curse.maven:NethersDelight-496394:4736227')
-    //runtimeOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
-
-    //compileOnly fg.deobf('curse.maven:NethersDelight-496394:4736227')
-    //compileOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
+    runtimeOnly fg.deobf('curse.maven:NethersDelight-496394:4736227')
 
     //JEI
-    runtimeOnly fg.deobf('curse.maven:JEI-238222:4712866')
-    runtimeOnly fg.deobf('curse.maven:JEED-532286:4599099')
+    runtimeOnly fg.deobf('curse.maven:JEI-238222:5101366')
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

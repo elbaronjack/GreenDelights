@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "greendelights:item/slime_jelly_block"
+    "layer0": "greendelights:item/slime_jelly"
   }
 }

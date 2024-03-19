@@ -71,7 +71,7 @@ public class FoodValues
 			.nutrition(7).saturationMod(0.6f).alwaysEat()
 			.effect(() -> new MobEffectInstance(MobEffects.LUCK, BRIEF_DURATION, 0), 1.0F).build();
 
-	public static final FoodProperties SLIME_JELLY = (new FoodProperties.Builder())
+	public static final FoodProperties SLIME_JELLY_SLICE = (new FoodProperties.Builder())
 			.nutrition(14).saturationMod(0.75f)
 			.effect(() -> new MobEffectInstance(MobEffects.LUCK, BRIEF_DURATION, 0), 1.0F)
 			.effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();

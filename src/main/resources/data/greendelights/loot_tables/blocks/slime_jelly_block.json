@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "greendelights:slime_jelly_block"
+          "name": "greendelights:slime_jelly"
         }
       ],
       "conditions": [

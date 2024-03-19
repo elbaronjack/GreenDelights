@@ -85,11 +85,11 @@ public class ModItems {
     public static final RegistryObject<Item> SLIME_MOUSSE = registerWithTab("slime_mousse",
             () -> new DrinkableItem(foodItem(FoodValues.SLIME_MOUSSE).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16)));
 
-    public static final RegistryObject<Item> SLIME_JELLY_BLOCK = registerWithTab("slime_jelly_block",
+    public static final RegistryObject<Item> SLIME_JELLY = registerWithTab("slime_jelly",
             () -> new BlockItem(ModBlocks.SLIME_JELLY_BLOCK.get(), basicItem().stacksTo(1)));
 
-    public static final RegistryObject<Item> SLIME_JELLY = registerWithTab("slime_jelly",
-            () -> new ConsumableItem(bowlFoodItem(FoodValues.SLIME_JELLY), true));
+    public static final RegistryObject<Item> SLIME_JELLY_SLICE = registerWithTab("slime_jelly_slice",
+            () -> new ConsumableItem(bowlFoodItem(FoodValues.SLIME_JELLY_SLICE), true));
 
     //Sweets
     public static final RegistryObject<Item> CREEPER_COOKIE = registerWithTab("creeper_cookie",

@@ -1,5 +1,8 @@
 {
   "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 400,
   "experience": 2.0,
   "ingredients": [
@@ -24,6 +27,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "greendelights:slime_jelly_block"
+    "item": "greendelights:slime_jelly"
   }
 }
