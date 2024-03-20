@@ -40,8 +40,7 @@ public class FoodValues
 
 	public static final FoodProperties CACTUS_RUM = (new FoodProperties.Builder())
 			.nutrition(2).saturationMod(0.8f).alwaysEat()
-			.effect(() -> new MobEffectInstance(MobEffects.CONFUSION, BRIEF_DURATION, 0), 1.0F)
-			.effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, BRIEF_DURATION, 0), 1.0F).build();
+			.effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, LONG_DURATION, 0), 1.0F).build();
 
 
 	//Bamboo

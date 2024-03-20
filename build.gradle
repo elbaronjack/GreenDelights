@@ -99,13 +99,10 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.3.2'
 
     //Farmer's Delight + Addons
-    runtimeOnly fg.deobf('curse.maven:FarmersDelight-398521:4679318')
+    implementation fg.deobf('curse.maven:FarmersDelight-398521:4679318')
+    compileOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
     runtimeOnly fg.deobf('curse.maven:NethersDelight-496394:3971576')
-    //runtimeOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
-
-    compileOnly fg.deobf('curse.maven:FarmersDelight-398521:4679318')
-    //compileOnly fg.deobf('curse.maven:NethersDelight-496394:3971576')
-    //compileOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
+    runtimeOnly fg.deobf('curse.maven:BrewinChewin-637808:4468049')
 
     //JEI
     runtimeOnly fg.deobf('curse.maven:JEI-238222:4712866')

@@ -48,6 +48,7 @@ This is a mod about green farming and green food: Cactus, bamboo and slime!
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
+
 # Here's another dependency
 [[dependencies.greendelights]]
     modId="minecraft"
@@ -56,9 +57,17 @@ This is a mod about green farming and green food: Cactus, bamboo and slime!
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.greendelights]]
 modId="farmersdelight"
 mandatory=true
+versionRange="[1.1.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.greendelights]]
+modId="brewinandchewin"
+mandatory=false
 versionRange="[1.1.2,)"
 ordering="NONE"
 side="BOTH"
