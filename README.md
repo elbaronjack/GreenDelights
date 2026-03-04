@@ -5,6 +5,7 @@ Cactus, Bamboo, and Slime are the new main ingredients in your kitchen.
 
 Bring fresh (and slightly weird) flavors to your Minecraft world!
 
+
 🌵 **Cactus**
 
 Cactus is now more than just a desert decoration!
@@ -21,6 +22,7 @@ Cactus is now more than just a desert decoration!
 
 🍹 **Ferment Cactus Rum** (integrated with **Brewin' and Chewin'**).
 
+
 🎋 **Bamboo**
 
 Bamboo is now an important part of your daily meals!
@@ -29,6 +31,7 @@ Bamboo is now an important part of your daily meals!
 (Yes! Seeds are finally more useful!)
 
 🥩 **Beef with bamboo and mushrooms** — a classic, nutritious dish.
+
 
 🟢 **Slime**
 
@@ -45,6 +48,7 @@ Made with slime and kelp for extra consistency.
 Take your portion with a bowl!
 
 🍀 Slime grants the Luck effect — feel the power of green!
+
 
 🌊 **Extra**
 
